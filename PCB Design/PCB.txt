@@ -1,0 +1,5 @@
+Contains 4 main modules that will be created in this project, namely:
+  - Controller          => An Arduino Nano with several header pins for sensor input and motor driver output and a terminal block for voltage source input.
+  - Sensor Driver       => A PCB module containing LEDs and photodiodes as sensors that will work by reading the intensity of light entering the sensor.
+  - Motor Driver        => Using IC L298N as the main controller for two DC motors.
+  - Voltage Comparator  => Using IC LM339N to digitize the sensor driver input.
